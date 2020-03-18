@@ -274,7 +274,24 @@ class Geoloc {
           console.log('Found the corresponding message.');
           // Build the Geoloc object
           const geoloc = new Geoloc;
-          geoloc.type = 'sigfox';
+          //geoloc.type = 'sigfox';
+          switch (data.computedLocation.source) {
+            case 1:
+              geoloc.type = "gps";
+              break;
+            case 2:
+              geoloc.type = "sigfox";
+              break;
+            case 5:
+              geoloc.type = "wifi";
+              geoloc.source = "sigfox";
+              break;
+            case 6:
+              geoloc.type = "wifi";
+              break;
+            default:
+              geoloc.type = "unknown";
+          }
 		      geoloc.location = new loopback.GeoPoint({
             lat: data.computedLocation.lat,
             lng: data.computedLocation.lng
