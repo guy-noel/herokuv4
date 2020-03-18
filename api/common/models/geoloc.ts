@@ -275,16 +275,17 @@ class Geoloc {
           // Build the Geoloc object
           const geoloc = new Geoloc;
           geoloc.type = 'sigfox';
-		  geoloc.location = new loopback.GeoPoint({
+		      geoloc.location = new loopback.GeoPoint({
             lat: data.computedLocation.lat,
             lng: data.computedLocation.lng
           });
           // TODO: below is retro-compatibility
-          if (data.geoloc.accuracy) {
+          /**if (data.geoloc.accuracy) {
             geoloc.accuracy = data.geoloc.accuracy;
           } else {
             geoloc.accuracy = data.geoloc.precision;
-          }
+          }**/
+          geoloc.accuracy = data.computedLocation.radius;
           geoloc.createdAt = messageInstance.createdAt;
           geoloc.userId = userId;
           geoloc.messageId = messageInstance.id;
