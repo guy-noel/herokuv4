@@ -5,8 +5,8 @@
   "author": "Antoine de Chassey & Louis Moreau",
   "license": "AGPL-3.0-only",
   "engines": {
-    "node": ">=10.1.0",
-    "npm": ">=6.0.1"
+    "node": "10.8.0",
+    "npm": "6.2.0"
   },
   "scripts": {
     "ng": "./node_modules/.bin/ng",

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
-    "node": ">=10.8.0",
-    "npm": ">=6.0.1"
+    "node": "10.8.0",
+    "npm": "6.2.0"
   },
   "author": "Antoine de Chassey & Louis Moreau",
   "license": "AGPL-3.0-only",
