@@ -57,6 +57,10 @@ Wait for the cluster to be created (1 to 3 minutes)
 
 ![whistlist](doc/img/whitelist.PNG)
 
+* Create database in COLLECTIONS>ADD YOUR OWN DATA
+
+![DB](doc/img/DB.PNG)
+
 * Copy your MongoDB URI in CONNECT>CONNECT APPLICATION :
 
 ![URI](doc/img/URI.PNG)
