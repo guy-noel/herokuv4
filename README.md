@@ -12,14 +12,12 @@ This project is a cloud platform to manage and visualize Sigfox devices and mess
 
 Deploy an instance on your Heroku account to play around with it!
 
-Warning: When using the free plan, the application goes to sleep after 30 min of inactivity (checkout the [pricing](https://www.heroku.com/pricing)).
-
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 An alternative way to get it running at Heroku is to install the [Heroku Toolbelt](https://toolbelt.heroku.com) and follow these steps:
 
 ```
-git clone https://github.com/IoT-Makers/sigfox-platform.git my-project
+git clone https://github.com/guy-noel/herokuv4.git my-project
 cd my-project
 heroku apps:create my-project
 git push heroku master
