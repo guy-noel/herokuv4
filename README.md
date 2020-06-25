@@ -4,7 +4,7 @@
 
 ## About this project
 
-This project is a cloud platform to manage and visualize Sigfox devices and messages.
+This project is a cloud platform to manage and visualize Sigfox devices and messages. It was modified to include the support of Sigfox Data advanced callbacks.
 
 ## Get started
 
