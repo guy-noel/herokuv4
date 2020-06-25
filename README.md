@@ -1,7 +1,5 @@
 # Sigfox Platform
 
-**Warning: Project under active development, do not use it for production!**
-
 ## About this project
 
 This project is a cloud platform to manage and visualize Sigfox devices and messages. It was modified to include the support of Sigfox Data advanced callbacks.
@@ -135,3 +133,4 @@ A short wiki can be found [here](https://github.com/IoT-Makers/sigfox-platform/w
 Feel free to submit a Pull Request and don't forget to add you name and your useful links ;)
 
 > Made with &nbsp;:heart:&nbsp; by Antoine de Chassey & Louis Moreau
+> Slightly updated by Guillaume Noel
