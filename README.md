@@ -45,21 +45,21 @@ If you are not familiar with Heroku, just create an account an follow the proced
 
 * Create a new MongoDB cluster:
 
-![plan-region](doc/img/plan-region.png)
+![plan-region](doc/img/plan-region.PNG)
 
 Wait for the cluster to be created (1 to 3 minutes)
 
 * Create database user in SECURITY>Database Access
 
-![user](doc/img/user.png)
+![user](doc/img/user.PNG)
 
 * White list IP range in SECURITY>Network Access:
 
-![whistlist](doc/img/whitelist.png)
+![whistlist](doc/img/whitelist.PNG)
 
 * Copy your MongoDB URI in CONNECT>CONNECT APPLICATION :
 
-![URI](doc/img/URI.png)
+![URI](doc/img/URI.PNG)
 
 * Go back to your Heroku Dashboard and go to the Settings tab:
 
