@@ -43,33 +43,23 @@ If you are not familiar with Heroku, just create an account an follow the proced
 
 * Go to [https://mlab.com](https://mlab.com/login/) and create an account and login.
 
-* Create a new MongoDB Deployments:
+* Create a new MongoDB cluster:
 
-![mlab-select-service](doc/img/mlab-select-service.png)
+![mlab-select-service](doc/img/plan-region.png)
 
-* Select your plan:
+Wait for the cluster to be created (1 to 3 minutes)
 
-![mlab-select-plan](doc/img/mlab-select-plan.png)
+* Create database user in SECURITY>Database Access
 
-* Select your region:
+![mlab-create-user](doc/img/user.png)
 
-![mlab-select-region](doc/img/mlab-select-region.png)
+* White list IP range in SECURITY>Network Access:
 
-* Create database:
+![mlab-select-plan](doc/img/whitelist.png)
 
-![mlab-create-db](doc/img/mlab-create-db.png)
+* Copy your MongoDB URI in CONNECT>CONNECT APPLICATION :
 
-* Validate:
-
-![mlab-validate](doc/img/mlab-validate.png)
-
-* Create database user:
-
-![mlab-create-user](doc/img/mlab-create-user.png)
-
-* Copy your MongoDB URI :
-
-![mlab-view-user](doc/img/mlab-view-user.png)
+![mlab-view-user](doc/img/URI.png)
 
 * Go back to your Heroku Dashboard and go to the Settings tab:
 
