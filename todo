@@ -1,1 +1,2 @@
--Migrate from APIv1 to APIv2
+Migrate from APIv1 to APIv2
+Check that GPS coordinates,that are parsed in the platform, overwrites Location attributes from Atlas
