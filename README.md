@@ -29,11 +29,11 @@ If you are not familiar with Heroku, just create an account an follow the proced
 
 ![create app](doc/img/deploy-1.png)
 
-2. **Build & deploy app:**
+2. **Build & deploy app (5 to 10min):**
 
 ![build app](doc/img/deploy-2.png)
 
-3. **(Optional) Link the application with a MongoDB MLab database (Free):**
+3. ** Link the application with a MongoDB MLab database (Free):**
 
 *Note that if you don't link a database to your application, all the data will be erased every time the application restarts.*
 
